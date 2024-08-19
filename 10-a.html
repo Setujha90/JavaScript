@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amazon button</title>
+    <style>
+        .design-button{
+           background-color: rgb(255, 216, 20);
+           padding: 5px 50px;
+           font-size: 20px;
+           border: none;
+           font-family: Arial;
+           border-radius: 20px;
+
+        }
+
+        .req-button{
+            color: white;
+            background-color: black;
+            padding: 10px 20px;
+            border: none;
+            font-family: Arial;
+            font-weight: bold;
+            border-radius: 5px;
+            margin-right: 20px;
+        }
+
+        .schedule-button{
+            font-weight: bold;
+            font-family: Arial;
+            border: none;
+            padding: 12px 20px;
+            background-color: rgb(230, 230, 230);
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <p><button class="design-button">Add to Cart</button></p>
+    
+
+    <button class="req-button">Request now</button>
+    <button class="
+    schedule-button">Schedule for later</button>
+
+    <button class="js-button">Test</button>
+
+    <!-- 10c -->
+    <script>
+       const button=  document.querySelector('.js-button');
+       console.log(button.classList.contains('js-button'));
+    </script>
+</body>
+</html>
